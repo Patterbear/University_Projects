@@ -1,0 +1,7 @@
+Manchester,Sunday,9
+Leicester,Monday,9
+Coventury,Tuesday,11
+Birmingham,Wednesday,11
+London,Thursday,8
+Nottingham,Friday,9
+Reading,Saturday,12
