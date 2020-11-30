@@ -1,0 +1,7 @@
+name = input("")
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.strip())
+print(name.split())
+print(name.replace('e', 'o'))
