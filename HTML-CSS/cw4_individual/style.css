@@ -51,24 +51,6 @@ li {
 	font-size: 20px;
 
 }
-h1 {
-    font-family: helvetica;
-    font-size: 3rem;
-    text-align: center;
-
-}
-
-h5 {
-    font-family: "Calibri Light";
-    font-size: 1rem;
-    text-align: left;
-}
-
-h2 {
-    font-family: helvetica;
-    font-size: 2rem;
-    text-align: center;
-}
 
 .center {
     display: block;
