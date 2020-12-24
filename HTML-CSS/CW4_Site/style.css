@@ -1,0 +1,243 @@
+body {
+	background-color: lightblue;
+
+}
+
+h1 {
+	font-family: 'Segoe UI';
+	font-weight: 700;
+	font-size: 45px
+}
+
+h2 {
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 30px
+}
+
+h3 {
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 16px;
+}
+
+h4 {
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 15px;
+}
+
+p {
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 20px;
+}
+
+ul {
+	font-family: 'Segoe UI';
+	font-weight: 200;
+	list-style-image: url(https://icons.iconarchive.com/icons/chrisbanks2/cold-fusion-hd/16/cpu-icon.png);
+}
+
+ol {
+	font-family: 'Segoe UI';
+	font-weight: 200;
+	font-size: 20px;
+}
+	
+li {
+	font-family: 'Segoe UI';
+	font-weight: 500;
+	font-size: 20px;
+
+}
+h1 {
+    font-family: helvetica;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+h5 {
+    font-family: "Calibri Light";
+    font-size: 1rem;
+    text-align: left;
+}
+
+h2 {
+    font-family: helvetica;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: orangered;
+    color: white;
+}
+
+.parallax {
+    background-image: url("images/1.png");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+
+body.intel-4004{
+    padding: 0 !important;
+    margin: 0 5% !important;
+	background: #FFFFFF !important;
+}
+
+.intel4004-header .primary_header{
+    text-align: center !important;
+}
+.intel4004-header .nav-bar{
+    padding: 10px 0 !important;
+    text-align: center!important;
+    text-align: capitalize !important;
+    font-size: 1.1em !important;
+}
+.intel4004-header .nav-bar li{
+    display: inline-block !important;
+    margin: 0 10px !important;
+}
+
+section.intel-4004-main h2{
+    text-align: center !important;
+    text-transform: uppercase !important;
+    padding: 10px 0 !important;
+    font-size: 2em !important;
+}
+section.intel-4004-main .sub-topic-article{
+    height: max-content !important;
+    width: 100% !important;
+    background-color: #f7f7f7 !important;
+    text-align: center !important;
+}
+section.intel-4004-main .sub-topic-article h3{
+    text-align: left !important;
+    padding: 30px 30px 0 30px !important;
+    text-transform: capitalize !important;
+    font-size: 20px !important;
+    line-height: 10px !important;
+    letter-spacing: 2px !important;
+    font-weight: 600 !important;
+    display: block !important;
+}
+section.intel-4004-main .sub-topic-article p{
+    display: inline-block !important;
+    width: 50% !important;
+    vertical-align: middle !important;
+    margin-right: 10% !important;
+    text-align: justify !important;
+    letter-spacing: 2px !important; 
+    padding: 0 30px !important;
+	font-size: 16px !important;
+}
+section.intel-4004-main .sub-topic-article img{
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+div.intel4004-row{
+    height: max-content !important;
+    text-align: center !important;
+}
+div.intel4004-row .columns{
+    height: max-content !important;
+}
+div.intel4004-row .columns h4{
+    text-transform: capitalize !important;
+    line-height: 20px !important;
+    letter-spacing: 1px !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    padding: 20px 0 !important;
+	font-size: 18px !important;
+}
+div.intel4004-row .columns p{
+    width: 50% !important;
+    text-align: justify !important;
+    display: inline-block !important;
+    margin-right: 10% !important;
+    padding: 0 30px !important;
+    vertical-align: left !important;
+	font-size: 16px !important;
+}
+div.intel4004-row .columns img{
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+footer{
+    height: max-content !important;
+    width: 100% !important;
+    padding: 10px !important;
+}
+.footer .copyright{
+    letter-spacing: 2px !important;
+    font-size: 12px !important;
+    text-align: center !important;
+}
+.intel4004-header .nav-bar li a{
+    text-decoration: none !important;
+    color: lightgray !important;
+    transition: color 0.2s ease-in !important;
+}
+.intel4004-header .nav-bar li a:hover{
+    text-decoration: none !important;
+    color: black !important;
+}
+section.bottom-refrence{
+    padding: 40px 100px !important;
+    background-color: darkgray !important;
+}
+section.bottom-refrence li{
+    padding: 5px 0 !important;
+    
+}
+table {
+	width:50% !important;
+	display: inline-block !important;
+  }
+  table, th, td {
+	border-collapse: collapse !important;
+  }
+  th, td {
+	padding: 15px !important;
+	text-align: center !important;
+  }
+  #t01 tr:nth-child(even) {
+	background-color: #eee !important;
+  }
+
