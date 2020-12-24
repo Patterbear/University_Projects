@@ -1,0 +1,82 @@
+body {
+	background-color: lightblue;
+
+}
+
+h1 {
+	font-family: 'Segoe UI';
+	font-weight: 700;
+	font-size: 45px
+}
+
+h2 {
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 30px
+}
+
+h3 {
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 16px;
+}
+
+h4 {
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 15px;
+}
+
+p {
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 20px;
+}
+
+ul {
+	font-family: 'Segoe UI';
+	font-weight: 200;
+	list-style-image: url(https://icons.iconarchive.com/icons/chrisbanks2/cold-fusion-hd/16/cpu-icon.png);
+}
+
+ol {
+	font-family: 'Segoe UI';
+	font-weight: 200;
+	font-size: 20px;
+}
+	
+li {
+	font-family: 'Segoe UI';
+	font-weight: 500;
+	font-size: 20px;
+
+}
+h1 {
+    font-family: helvetica;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+h5 {
+    font-family: "Calibri Light";
+    font-size: 1rem;
+    text-align: left;
+}
+
+h2 {
+    font-family: helvetica;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+html{
+    scroll-behavior: smooth !important;
+}
