@@ -88,7 +88,5 @@ public class Controller {
     System.out.println(theCourse);
     System.out.println(theMatch);
     System.out.println(theMatch.declareWinner());
-    //System.out.println(theCourse.getCoursePar());
-    //System.out.println(theCourse.getHolePar(2));
   }
 }

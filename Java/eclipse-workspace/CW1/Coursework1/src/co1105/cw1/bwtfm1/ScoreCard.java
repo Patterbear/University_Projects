@@ -1,5 +1,6 @@
 package co1105.cw1.bwtfm1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ScoreCard {
@@ -24,7 +25,13 @@ public class ScoreCard {
 	}
 	
 	int[] getScores() {
-		return this.holeScores;
+		ArrayList<Integer> realScores = new ArrayList<Integer>();
+		
+		for(int i=0; i<holeScores.length; i++) {
+			realScores.add(holeScores[i]-course.getHolePar(i));
+		}
+		int[] compatScores = realScores.stream().mapToInt(i -> i).toArray();
+		return compatScores;
 	}
 	
 	double getAdjustedTime() {
@@ -36,7 +43,7 @@ public class ScoreCard {
 	}
 	
 	public String toString() {
-		return this.name + " (" + this.time + ")     " + Arrays.toString(holeScores).replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(",", " ") + "     (" + this.getAdjustedTime() + ")";
+		return this.name + " (" + this.time + ")     " + Arrays.toString(this.getScores()).replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(",", " ") + "     (" + this.getAdjustedTime() + ")";
 	}
 	
 

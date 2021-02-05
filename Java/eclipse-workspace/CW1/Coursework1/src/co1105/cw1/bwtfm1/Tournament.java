@@ -21,7 +21,16 @@ public class Tournament {
 	}
 	
 	public String declareWinner() {
-		return "winner";
+		ScoreCard winner = scores[0];
+		for(int i=1; i<scores.length; i++) {
+			if(scores[i].getAdjustedTime() < winner.getAdjustedTime()) {
+				winner = scores[i];
+			} else {
+				continue;
+			}
+		}
+		
+		return "Winner is " + winner.getName();
 	}
 
 }
