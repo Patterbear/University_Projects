@@ -106,7 +106,7 @@ mylist.insertEnd(ThirdNode)
 FourthNode=Node(1)
 mylist.insertHead(FourthNode)
 
-#mylist.deleteHead()
+mylist.deleteHead()
 mylist.traversal()
 print(mylist.numberOfNodes())
 
