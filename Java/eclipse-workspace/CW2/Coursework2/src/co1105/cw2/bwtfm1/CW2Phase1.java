@@ -23,7 +23,7 @@ class CW2Phase1 {
    * as the one and only command line argument.
    * @throws InvalidSolidException (Ignore this for phase 1)
    */
-  public static void main (final String[] args) // throws InvalidSolidException
+  public static void main (final String[] args) throws InvalidSolidException // throws InvalidSolidException
                                                 // uncomment the above throws
                                                 // once you have completed phase 2
   {

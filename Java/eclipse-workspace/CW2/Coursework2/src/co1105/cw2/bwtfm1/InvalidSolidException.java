@@ -2,11 +2,13 @@ package co1105.cw2.bwtfm1;
 
 public class InvalidSolidException extends Exception {
 	
+	//Constructor method (Default)
 	public InvalidSolidException() {
 		super();
 	}
 	
-public InvalidSolidException(String message) {
+	//Constructor method (With message)
+	public InvalidSolidException(String message) {
 		super(message);
 	}
 	
